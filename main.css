@@ -4,16 +4,29 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header, 
+section h2{
+    font-family: 'Bungee', cursive;
+}
+
 header{
     padding: 16px 0;
     background: #182c61;
     color: #ecf0f1;
 }
 
+header h1, section h2{
+    font-weight: normal;
+}
+
 header nav li{
     display: inline;
     margin-left:16px;
-    font-size: 24px;
+    font-size: 18px;
     
 }
 
@@ -27,6 +40,9 @@ header nav li a{
     width: 100%;
     margin: 0 auto;
 }
+section{
+    margin-left: 15.5%;
+}
 
 h1{
     margin-left: 12%;
@@ -39,3 +55,37 @@ header .container{
     align-items: center;
 }
 
+.brands-list img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+section .containeer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #182c61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
