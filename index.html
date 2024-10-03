@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Shoop - A Loja de Games</title>
     <link rel="stylesheet" href="/main.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -23,19 +20,19 @@
                 <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Contatos</a>
+                        <a href="#contact">Contatos</a>
                     </li>
                 </ul>
                 </nav>
             </div> 
         </header>
 
-        <section>
+        <section id="about">
             <div class="containeer">
-                <img class="store-front" src="/img/loja.jpg" alt="Fachada da loja Games Shoop">
+                <img class="store-front" src="/img/loja.jpg" alt="Fachada da loja Games Shoop" width="550" height="390">
                 <div>
                     <h2>Sobre a Loja</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur voluptatum esse quaerat laboriosam vero, ab consequuntur molestiae impedit sunt iure! Suscipit inventore voluptas aperiam rem atque! Sunt, labore aut?</p>
@@ -48,7 +45,58 @@
                     </ul>
                 </div>
         </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contatos</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required>
+                            <input type="email" placeholder=" Seu e-mail" required>
+                            <input type="tel" placeholder="Seu telefone (opcional)">
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos Acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-no no Instagrem">
+                                    <img src="/img/instagram.png" alt="Logo do Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="/img/facebook.png" alt="Logo do Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no Youtube">
+                                    <img src="/img/youtube.png" alt="Logo do Youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até Nós</h3>
+                        <p>
+                            Rua JavaScript N° 7, Vila HTML - Recife-Pe
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     
+        <footer>
+            <div class="containe">
+                <p>
+                    &copy; Games Shoop - Todos os Direitos Resevados - 2014
+                </p>
+            </div>
+        </footer>
     
 </body>
 </html>

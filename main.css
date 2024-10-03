@@ -4,23 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
+body, input, textarea{
     font-family: 'Roboto', sans-serif;
 }
 
 header, 
-section h2{
+section h2,
+section h3, 
+form button{
     font-family: 'Bungee', cursive;
+    font-weight: normal;
 }
 
 header{
     padding: 16px 0;
     background: #182c61;
     color: #ecf0f1;
-}
-
-header h1, section h2{
-    font-weight: normal;
 }
 
 header nav li{
@@ -41,11 +40,11 @@ header nav li a{
     margin: 0 auto;
 }
 section{
-    margin-left: 15.5%;
+    margin-left: 13.5%;
 }
 
 h1{
-    margin-left: 12%;
+    margin-left: 9%;
 }
 
 
@@ -60,7 +59,8 @@ header .container{
     margin-right: 8px;
 }
 
-section .containeer{
+section .containeer,
+.containe{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -89,3 +89,73 @@ section p{
 .store-front{
     margin-right: 32px;
 }
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact h2, h3{
+    margin-right: 195px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #414a9e;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+footer p{
+    margin-left: 13.5%;
+}
+
